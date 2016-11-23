@@ -1,0 +1,36 @@
+/*
+display	Mode d'affichage
+float	Permet de faire "flotter" un élément.	
+text-align	Alignement du texte
+vertical-align	Alignement vertical du texte
+line-height	Hauteur de la ligne
+color et background-color 	Couleurs d'écritures et de fond
+border(-*) 	Permet de rajouter des bordures aux éléments
+margin(-*), padding(-*) 	Espacements extérieurs et intérieurs
+:first-child 	Pseudo-classe premier fils
+:hover 	Pseudo-classe survol du pointeur
+:not 	Pseudo-classe de négation
+*/
+
+
+li{
+    display: inline;
+}
+.menu{
+  background-color: #00AA99;
+}
+.menu a{
+  color: #FFFFFF;
+  text-decoration:none;
+}
+.menu a |="IUT"{
+  box-shadow: 20px 20px 20px #529;
+}
+.menu  a:hover{
+  text-decoration:underline;
+}
+
+.menu a:first-child{
+  
+  
+}
