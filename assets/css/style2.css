@@ -13,6 +13,26 @@ margin(-*), padding(-*) 	Espacements extérieurs et intérieurs
 */
 
 
+@media screen and (max-width:600px){
+  .menu li{
+    display: block;
+    text-align:center;
+  }
+  .menu ul > li:first-child{
+  text-align: center;
+  margin-right:5px;
+  margin-left:5px;
+  float:none;
+  text-align:center;
+}
+  .menu ul{
+    margin-left:-40px
+  }
+}
+
+
+
+
 li{
     display: inline;
 }
@@ -23,12 +43,18 @@ li{
   color: #FFFFFF;
   text-decoration:none;
 }
-.menu a |="IUT"{
-  box-shadow: 20px 20px 20px #529;
+.menu ul > li:first-child{
+  float: right;
+  margin-right: 10%;
+  border: 1px solid white;
+  border-radius: 10%;
 }
-.menu  a:hover{
+
+.menu a:hover{
   text-decoration:underline;
 }
+
+
 
 .menu a:first-child{
   
